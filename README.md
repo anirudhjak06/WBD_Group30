@@ -1,7 +1,7 @@
 # Green Grocery
 ## WBD Project
 
-Group Number - 30
+Group Number -30
 
 ## Problem Motivation
 - In these present situations, it is difficult for farmers to sell their products at a fair price in markets. Customers are buying hybrid fruits and vegetables which are not good for health which contain harmful substances.
