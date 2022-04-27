@@ -36,7 +36,7 @@ const Contact = () => {
   };
   return (
     <div>
-    {/* <Announcement /> */}
+    <Announcement />
     <Navbar />
 
     <body1>

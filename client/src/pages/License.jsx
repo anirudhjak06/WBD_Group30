@@ -11,7 +11,7 @@ import "./license.css";
 const License = () => {
     return (
         <div>
-        {/* <Announcement /> */}
+        <Announcement />
         <Navbar />
     
         <body>

@@ -67,7 +67,7 @@ const ImgContainer = styled.div`
 const Privacy = () => {
     return (
         <div>
-        {/* <Announcement /> */}
+        <Announcement />
         <Navbar />
     
     <body>

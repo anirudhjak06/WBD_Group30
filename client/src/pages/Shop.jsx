@@ -134,7 +134,7 @@ const Shop = () => {
   return (
     <Container>
       <Navbar />
-      {/* <Announcement /> */}
+      <Announcement />
       <Title>Shop</Title>
       <List>
           <FilterText>Categories :</FilterText>
