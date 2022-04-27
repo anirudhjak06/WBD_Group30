@@ -19,7 +19,7 @@ const Contact = () => {
       email: email.value,
       desc: desc.value,
     };
-    let response = await fetch("http://localhost:5000/api/contact/", {
+    let response = await fetch("/api/contact/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",

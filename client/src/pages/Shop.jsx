@@ -107,7 +107,7 @@ const Shop = () => {
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);
-      const res = await axios.get("http://localhost:5000/api/products");
+      const res = await axios.get("/api/products");
       setPosts(res.data);
       setLoading(false);
     };

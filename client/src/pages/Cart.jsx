@@ -222,7 +222,7 @@ const Cart = () => {
         console.log("error here");
       }
       try {
-        const res = await userRequest.post("http://localhost:5000/api/checkout/payment", {
+        const res = await userRequest.post("/api/checkout/payment", {
           tokenId: stripeToken.id,
           amount: (cart.total+25) * 100,
         });
